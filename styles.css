@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff4081; /* Bright pink for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #ffeb3b; /* Bright yellow for section headings */
+}
+
+main {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+li {
+    background-color: #4caf50; /* Green background for track items */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+li:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffeb3b; /* Match footer text color with headings */
+}
